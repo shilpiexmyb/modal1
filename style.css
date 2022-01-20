@@ -43,7 +43,7 @@
 }
     
     .modal-box .modal-dialog .modal-content .close{
-        color:darkgrey;
+        color:#26de81;
         font-size: 35px;
         font-weight: 600;
         text-shadow: none;
@@ -63,25 +63,31 @@
     .modal-box .modal-dialog .modal-content .close:focus{ outline: none; }
     .modal-box .modal-dialog .modal-content .modal-body{ padding: 40px 15px 30px !important; }
     .modal-box .modal-dialog .modal-content .modal-body .icon{
-        color: #fff;
-        background: linear-gradient(45deg, #26de81, #26de81);
-        font-size: 100px;
-        line-height: 170px;
-        width: 170px;
-        height: 170px;
-        margin: 0 auto 55px;
-        box-shadow: 0 0 0 7px #fff,
-        0 0 0 15px rgba(65, 224, 126, 0.4),
-        0 0 0 22px #fff,
-        0 0 0 25px rgba(65, 224, 126, 0.15);
-        border-radius: 50%;
+        color: rgb(255, 255, 255);
+        background: linear-gradient( 
+    45deg, rgb(38, 222, 129), rgb(38, 222, 129));
+        font-size: 46px;
+        /* line-height: 170px; */
+        width: 73px;
+        height: 68px;
+        margin: 127px auto 46px;
+        box-shadow: rgb(255 255 255) 0px 0px 0px 7px, rgb(65 224 126 / 40%) 0px 0px 0px 15px, rgb(255 255 255) 0px 0px 0px 22px, rgb(65 224 126 / 15%) 0px 0px 0px 25px;
+        border-radius: 78%;
+        margin-top: -67px;
     }
+
+img{
+    width: 217px;
+    height: 192px;
+    margin-top: -11px;
+}
+    
     .modal-box .modal-dialog .modal-content .modal-body .title{
         font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 0 15px;
-    margin-top: 40px;
+    margin-top: -1px;
 
     }
     .modal-box .modal-dialog .modal-content .modal-body .description{
@@ -98,13 +104,17 @@
         font-weight: 700;
         letter-spacing: 1px;
         text-transform: uppercase;
-        width: 52%;
-        height: 43px;
-        margin-top: -21px;
+        width: 35%;
+    height: 44px;
+    margin-top: -7px;
         padding: 10px 7px;
         border: none;
+        margin-left: 44px;
         /* border-radius: 50px; */
         transition: all 0.3s ease 0s;
+}
+.btns{
+    display: flex;
 }
 .btn a{
     text-decoration: none;
