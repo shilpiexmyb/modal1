@@ -37,7 +37,7 @@
         text-align: center;
         border: none;
         /* border-radius: 50px; */
-        box-shadow: 0 5px 15px 5px rgba(122,214,92,0.3);
+        box-shadow: 0 5px 15px 5px #2ed573;
         width: 461px;
     height: 451px;
 }
@@ -147,10 +147,7 @@ img{
     text-decoration: none;
     color: white;
 }
-    .modal-box .modal-dialog .modal-content .modal-body .btn:hover{
-        text-shadow: 0 0 5px rgba(0,0,0,0.5);
-        box-shadow: 5px 5px rgba(0,0,0,0.1),-5px -5px rgba(0,0,0,0.1);
-    }
+    
     .modal-box .modal-dialog .modal-content .modal-body .btn:focus{ outline: none; }
     @media only screen and (max-width: 480px){
         .modal-dialog{ width: 95% !important; }
