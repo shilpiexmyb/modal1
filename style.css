@@ -39,7 +39,7 @@
         /* border-radius: 50px; */
         box-shadow: 0 5px 15px 5px rgba(122,214,92,0.3);
         width: 461px;
-    height: 438px;
+    height: 451px;
 }
     
     .modal-box .modal-dialog .modal-content .close{
@@ -83,44 +83,67 @@ img{
 }
     
     .modal-box .modal-dialog .modal-content .modal-body .title{
-        font-size: 25px;
+        font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 0 15px;
-    margin-top: -1px;
+    margin-top: 24px;
 
     }
     .modal-box .modal-dialog .modal-content .modal-body .description{
-        font-size: 15px;
+        font-size: 17px;
     letter-spacing: 1px;
     margin: 0 auto 25px;
     margin-top: 10px;
     }
-    .modal-box .modal-dialog .modal-content .modal-body .btn{
-        color: #fff;
-        background: linear-gradient( 
-    45deg, #26de81, #26de81);
-        font-size: 17px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        width: 35%;
-    height: 44px;
-    margin-top: -7px;
-        padding: 10px 7px;
-        border: none;
-        margin-left: 44px;
-        /* border-radius: 50px; */
-        transition: all 0.3s ease 0s;
+    .modal-box .modal-dialog .modal-content .modal-body .btn1{
+        font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 29%;
+    height: 35px;
+    margin-top: -11px;
+    padding: 10px 7px;
+    border: none;
+    margin-left: 72px;
+    /* border-radius: 50px; */
+    transition: all 0.3s ease 0s;
+    background-color:rgb(38, 222, 129) ;
+    color:white;
+}
+.modal-box .modal-dialog .modal-content .modal-body .btn2{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 29%;
+    height: 35px;
+    margin-top: -11px;
+    padding: 10px 7px;
+    border: none;
+    margin-left:39px;
+    /* border-radius: 50px; */
+    transition: all 0.3s ease 0s;
+    background-color:rgb(38, 222, 129) ;
+    color: white;
 }
 .btns{
     display: flex;
 }
-.btn a{
+.btn1 a{
     text-decoration: none;
     color: white;
 }
-.btn a:hover{
+.btn1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2 a:hover{
     text-decoration: none;
     color: white;
 }
