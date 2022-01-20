@@ -38,7 +38,10 @@
         border: none;
         /* border-radius: 50px; */
         box-shadow: 0 5px 15px 5px rgba(122,214,92,0.3);
-    }
+        width: 461px;
+    height: 438px;
+}
+    
     .modal-box .modal-dialog .modal-content .close{
         color:darkgrey;
         font-size: 35px;
@@ -51,8 +54,8 @@
         opacity: 1;
         position: absolute;
         left: auto;
-        right: 15px;
-        top: 15px;
+        right: 33px;
+    top: 15px;
         z-index: 1;
         transition: all 0.3s ease 0s;
     }
@@ -74,29 +77,43 @@
         border-radius: 50%;
     }
     .modal-box .modal-dialog .modal-content .modal-body .title{
-        font-size: 27px;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin: 0 0 15px;
+        font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    margin-top: 40px;
+
     }
     .modal-box .modal-dialog .modal-content .modal-body .description{
-        font-size: 18px;
-        letter-spacing: 1px;;
-        margin: 0 auto 25px;
+        font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 auto 25px;
+    margin-top: 10px;
     }
     .modal-box .modal-dialog .modal-content .modal-body .btn{
         color: #fff;
-        background: linear-gradient(45deg, #26de81, #26de81);
-        font-size: 20px;
+        background: linear-gradient( 
+    45deg, #26de81, #26de81);
+        font-size: 17px;
         font-weight: 700;
         letter-spacing: 1px;
         text-transform: uppercase;
-        width: 80%;
+        width: 52%;
+        height: 43px;
+        margin-top: -21px;
         padding: 10px 7px;
         border: none;
         /* border-radius: 50px; */
         transition: all 0.3s ease 0s;
-    }
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn a:hover{
+    text-decoration: none;
+    color: white;
+}
     .modal-box .modal-dialog .modal-content .modal-body .btn:hover{
         text-shadow: 0 0 5px rgba(0,0,0,0.5);
         box-shadow: 5px 5px rgba(0,0,0,0.1),-5px -5px rgba(0,0,0,0.1);
