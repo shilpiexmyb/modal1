@@ -6,7 +6,7 @@
     .modal-box{ font-family: 'Raleway', sans-serif; }
     .modal-box .show-modal{
         color: #fff;
-        background: linear-gradient(45deg, #26de81, #26de81);
+        background: #26de81;
         font-size: 18px;
         font-weight: 600;
         text-transform: capitalize;
@@ -36,7 +36,7 @@
         color: #26de81;
         text-align: center;
         border: none;
-        /* border-radius: 50px; */
+       
         box-shadow: 0 5px 15px 5px #2ed573;
         width: 461px;
     height: 451px;
@@ -49,7 +49,7 @@
         text-shadow: none;
         line-height: 12px;
         height: 30px;
-        /* width: 30px; */
+       
         overflow: hidden;
         opacity: 1;
         position: absolute;
@@ -67,7 +67,7 @@
         background: linear-gradient( 
     45deg, rgb(38, 222, 129), rgb(38, 222, 129));
         font-size: 46px;
-        /* line-height: 170px; */
+     
         width: 73px;
         height: 68px;
         margin: 127px auto 46px;
@@ -107,7 +107,7 @@ img{
     padding: 10px 7px;
     border: none;
     margin-left: 72px;
-    /* border-radius: 50px; */
+   
     transition: all 0.3s ease 0s;
     background-color:rgb(38, 222, 129) ;
     color:white;
@@ -123,7 +123,7 @@ img{
     padding: 10px 7px;
     border: none;
     margin-left:39px;
-    /* border-radius: 50px; */
+ 
     transition: all 0.3s ease 0s;
     background-color:rgb(38, 222, 129) ;
     color: white;
@@ -148,8 +148,5 @@ img{
     color: white;
 }
     
-    .modal-box .modal-dialog .modal-content .modal-body .btn:focus{ outline: none; }
-    @media only screen and (max-width: 480px){
-        .modal-dialog{ width: 95% !important; }
-    }
+    
     
